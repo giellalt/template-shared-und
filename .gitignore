@@ -50,5 +50,5 @@ Makefile
 
 build-aux
 
-giella-shared-eng.pc
+giella-shared-__UND__.pc
 .DS_Store
