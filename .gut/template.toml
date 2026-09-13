@@ -9,13 +9,15 @@
 
 name = "Shared Template"
 patterns = ["__UND__", "__UNDEFINED__"]
-rev_id = 4
+rev_id = 5
 required = [".gitignore",
             ".github/workflows/docs.yml",
             "Makefile.am",
             "autogen.sh",
             "configure.ac",
             "docs/_config.yml",
+            "docs/.gitignore",
+            "docs/Gemfile",
             "giella-shared-__UND__.pc.in",
             "src/Makefile.am",
             "src/fst/Makefile.am",
