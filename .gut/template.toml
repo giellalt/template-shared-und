@@ -9,7 +9,7 @@
 
 name = "Shared Template"
 patterns = ["__UND__", "__UNDEFINED__"]
-rev_id = 3
+rev_id = 4
 required = [".gitignore",
             ".github/workflows/docs.yml",
             "Makefile.am",
