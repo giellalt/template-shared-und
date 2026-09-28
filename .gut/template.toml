@@ -21,11 +21,12 @@ required = [".gitignore",
             "giella-shared-__UND__.pc.in",
             "src/Makefile.am",
             "src/fst/Makefile.am",
-            "src/fst/stems/Makefile.am"]
+            "src/fst/morphology/Makefile.am",
+            "src/fst/morphology/stems/Makefile.am"]
 
 optional = ["README.md",
             "docs/index.md",
-            "src/fst/stems/__UND__-propernouns.lexc"]
+            "src/fst/morphology/stems/__UND__-propernouns.lexc"]
 
 ignored  = ["LICENSE",
             ".gut/delta.toml"]
