@@ -17,3 +17,10 @@
 
 SUBDIRS = stems
 
+if CAN_HFST_LEXC
+check-local:
+	$(HFST_LEXC) -Wall -Werror -v testroot.lexc \
+		stems/__UND__-propernouns.lexc \
+		-o /dev/null
+endif
+

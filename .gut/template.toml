@@ -9,7 +9,7 @@
 
 name = "Shared Template"
 patterns = ["__UND__", "__UNDEFINED__"]
-rev_id = 6
+rev_id = 7
 required = [".gitignore",
             ".github/workflows/docs.yml",
             "Makefile.am",
@@ -26,6 +26,7 @@ required = [".gitignore",
 
 optional = ["README.md",
             "docs/index.md",
+            "src/fst/morphology/testroot.lexc",
             "src/fst/morphology/stems/__UND__-propernouns.lexc"]
 
 ignored  = ["LICENSE",
